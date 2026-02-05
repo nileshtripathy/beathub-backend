@@ -1,0 +1,24 @@
+{
+  "name": "beathub-backend",
+  "version": "1.0.0",
+  "description": "This repository contains the backend data layer for the **BeatHub** application.   It demonstrates how individual Mongoose models are assembled into a functioning MongoDB-backed system with relationships between entities.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
